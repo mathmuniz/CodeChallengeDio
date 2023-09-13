@@ -28,3 +28,22 @@ A primeira entrada consiste em um número inteiro que representa a  quantidade d
 
 Saída: <br>
 Seu programa deve exibir a lista de Ativos organizada em ordem alfabética. Cada ativo deve ser apresentado em uma linha separada.
+<br><br>
+### 3 - Condicionalmente Rico:
+Descrição: <br>
+Uma nova feature para um sistema bancário foi analisada pela equipe de desenvolvimento e será uma das tarefas a serem trabalhadas durante a sprint, como desenvolvedor da empresa você recebeu os requisitos para a nova implementação que consiste em uma solução algorítmica que permita aos clientes realizarem saques em caixas eletrônicos. No entanto, existem algumas regras a serem seguidas para garantir que um saque possa ser realizado com sucesso.
+
+Regras do saque: <br>
+
+- Cada cliente digitará o valor do seu saldoTotal de sua conta bancária e o valorSaque.
+- Um saque só pode ser realizado se o saldoDisponível na conta for igual ou superior ao valor solicitado.
+- Se o saldo for suficiente, o valor solicitado deve ser subtraído do saldo disponível, indicando que o saque foi realizado.
+- Se o saldo for insuficiente, o saque não deve ser realizado e uma mensagem adequada deve ser exibida.
+
+Entrada: <br>
+A entrada consiste em dois valores inteiros que representam o total do saldo da conta e o valor do saque.
+
+Saída: <br>
+Se o saque for realizado com sucesso, exibir a mensagem "Saque realizado com sucesso! Novo saldo: {saldo}", onde {saldo} é o novo saldo disponível na conta.
+
+Se o saque não for possível devido a saldo insuficiente, exibir a mensagem "Saldo insuficiente. Saque nao realizado!"
