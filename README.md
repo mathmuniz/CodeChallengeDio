@@ -19,6 +19,7 @@ Considere apenas uma casa decimal para esse desafio.
 Saída: <br>
  Um número decimal que representa o saldo atualizado na conta bancária após o processamento das transações.
 <br><br>
+
 ### 2 - Organizando Seus Ativos:
 Descrição: <br>
 Após uma análise cuidadosa realizada pela equipe de desenvolvimento de uma empresa bancaria, foi identificado a necessidade de uma nova funcionalidade para otimizar os processos e melhorias da experiência dos usuários. Agora, sua tarefa é implementar uma solução que organize em ordem alfabética uma lista de ativos que será informada pelos usuários. Os ativos são representados por strings que representam seus tipos, como por exemplo: Reservas de liquidez, Ativos intangiveis e dentre outros.
@@ -29,6 +30,7 @@ A primeira entrada consiste em um número inteiro que representa a  quantidade d
 Saída: <br>
 Seu programa deve exibir a lista de Ativos organizada em ordem alfabética. Cada ativo deve ser apresentado em uma linha separada.
 <br><br>
+
 ### 3 - Condicionalmente Rico:
 Descrição: <br>
 Uma nova feature para um sistema bancário foi analisada pela equipe de desenvolvimento e será uma das tarefas a serem trabalhadas durante a sprint, como desenvolvedor da empresa você recebeu os requisitos para a nova implementação que consiste em uma solução algorítmica que permita aos clientes realizarem saques em caixas eletrônicos. No entanto, existem algumas regras a serem seguidas para garantir que um saque possa ser realizado com sucesso.
@@ -47,3 +49,19 @@ Saída: <br>
 Se o saque for realizado com sucesso, exibir a mensagem "Saque realizado com sucesso! Novo saldo: {saldo}", onde {saldo} é o novo saldo disponível na conta.
 
 Se o saque não for possível devido a saldo insuficiente, exibir a mensagem "Saldo insuficiente. Saque nao realizado!"
+<br><br>
+### 4 - Juros Compostos:
+Descrição:<br>
+Imagine que você está desenvolvendo um aplicativo para um banco que deseja calcular os juros compostos de um investimento. Seu objetivo é criar uma função que receba três parâmetros: o valor inicial do investimento, a taxa de juros anual e o período de tempo em anos. A função deve calcular e retornar o valor final do investimento após o período determinado, levando em consideração os juros compostos.
+
+Entrada:<br>
+A função deve receber os seguintes parâmetros:
+
+valor_inicial: um número inteiro ou decimal representando o valor inicial do investimento.
+
+taxa_juros: um número decimal representando a taxa de juros anual. Por exemplo, se a taxa for de 5%, o valor passado será 0.05.
+
+periodo: um número inteiro representando a quantidade de anos do investimento.
+
+Saída:<br>
+A função deve retornar o valor final do investimento após o período determinado, considerando os juros compostos. O valor final deve ser arredondado para duas casas decimais.
